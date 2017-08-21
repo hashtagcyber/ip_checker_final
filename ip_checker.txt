@@ -24,6 +24,9 @@ if command ; then
 fi
 }
 
+command && command && echo success || echo epic fail
+
+
 <<eor
 #break if the IP is not working or incorrect
 {
